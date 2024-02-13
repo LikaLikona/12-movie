@@ -37,9 +37,11 @@ function showMovies(movies){
             </div>
         `
         movieEl.addEventListener("click", (e) => {
-            window.location.href = "https://www.themoviedb.org/tv/52814-halo"
+            e.preventDefault()
+            const win = window.open('${API_URL + id}')
+            // window.location.href = "https://www.themoviedb.org/movie/${id}"
             
-            
+            // https://www.themoviedb.org/tv/52814-halo
             // "https://www.themoviedb.org/movie/${id}"
             // "${movie.id}"
             
