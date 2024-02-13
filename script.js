@@ -38,8 +38,8 @@ function showMovies(movies){
         `
         movieEl.addEventListener("click", (e) => {
             e.preventDefault()
-            const win = window.open('${API_URL + id}')
-            // window.location.href = "https://www.themoviedb.org/movie/${id}"
+            // const win = window.open('${API_URL + id}') 
+            window.location.href = "https://www.themoviedb.org/movie/${id}"
             
             // https://www.themoviedb.org/tv/52814-halo
             // "https://www.themoviedb.org/movie/${id}"

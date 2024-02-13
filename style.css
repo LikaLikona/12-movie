@@ -40,13 +40,17 @@ main{
     gap: 20px;
 }
 .movie{
-    width: 300px;
+    width: 400px;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 1rem;
     background-color: rgb(85, 36, 190);
     box-shadow: 0 0 10px rgb(0,0,1);
     position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .movie h3{
     color: white;
